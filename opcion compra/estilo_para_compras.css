@@ -1,0 +1,37 @@
+div #modulo_compra {
+    margin: auto;
+    border: 2px solid blue;
+    max-width: 450px;
+}
+
+#compra {
+    display: block;
+    background-color: coral;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    color: cornsilk;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: auto;
+}
+
+#compra:hover {
+    color: darkgray;
+    background-color: crimson;
+}
+
+/**#compra:visited{
+    color: black;
+    background-color: red;
+} **/
+
+section {
+    border: 2px double slateblue;
+    /* display: inline-flex; el que mas se hacerca a lo que quiero **/
+    display: inline-table;
+    padding: 5px;
+    margin-bottom: 10px;
+}

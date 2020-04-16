@@ -1,0 +1,25 @@
+nav{
+    text-align: right;
+    
+}
+a:hover {
+   color:red ;
+   cursor: pointer;
+}
+
+#intro{
+    clear: both;
+    padding: 10px;
+}
+
+#titulo_tabla_imagenes{
+    color: rgb(128, 22, 228);
+}
+#tabla_imagenes{
+    margin: auto; 
+}
+
+.imagen{
+    display: inline-table;
+    border: 2px double gray;
+}
