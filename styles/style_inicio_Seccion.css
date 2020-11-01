@@ -1,7 +1,8 @@
 body{
     text-align: center;
     font-size: larger;
-    background-image: url("../logo2.png");
+    background-image: url("/images/logo2.png");
+
 }
 header{
     text-shadow: 5px 2px 4px grey;

@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inicio seccion</title>
     <!-- Enlazar archivos -->
-<link rel="stylesheet" href="style_inicio_Seccion.css">
-<link type="text/javascript" href="animaciones_inicio_seccion.js">
+    <link rel="stylesheet" href="..\styles\style_inicio_Seccion.css">
+    <link type="text/javascript" href="..\scripts\animaciones_inicio_seccion.js">
 
 
 </head>
+
 <body>
-    <header> <h2>inicio de seccion</h2></header>
+    <header>
+        <h2>inicio de seccion</h2>
+    </header>
     <div>
-    <form action="envio.php" method="post" >
-        <!-- formulario. placeholder no es obligatorio al igual que Usuario -->
-    usuario : <input type="text" placeholder="ingrese su usuario" autofocus="" required="" maxlength="50" >
-  
-    <p></p>
-   Email : <input type="email" name="" id="correo"  placeholder="ingrese correo" required>
-<br>
-   contraseña: <input type="password" placeholder="ingrese su contraseña" minlength="4"  maxlength="16" required>
+        <form action="envio.php" method="post">
+            <!-- formulario. placeholder no es obligatorio al igual que Usuario -->
+            usuario : <input type="text" placeholder="ingrese su usuario" autofocus="" required="" maxlength="50">
 
-   <br>
-<!-- boton enviar -->
-    <input type="submit" id="boton_enviar">
-    <!-- boton fecha 
-    <input type="date" name="" id="fecha"> --> 
+            <p></p>
+            Email : <input type="email" name="" id="correo" placeholder="ingrese correo" required>
+            <br>
+            contraseña: <input type="password" placeholder="ingrese su contraseña" minlength="4" maxlength="16"
+                required>
 
-   <!-- Area grande -->     
-<p></p> comentarios: <br>
- <textarea name="" id="comentario" cols="30" rows="10" maxlength="150" ></textarea>
+            <br>
+            <!-- boton enviar -->
+            <input type="submit" id="boton_enviar">
+            <!-- boton fecha 
+    <input type="date" name="" id="fecha"> -->
+
+            <!-- Area grande -->
+            <p></p> comentarios: <br>
+            <textarea name="" id="comentario" cols="30" rows="10" maxlength="150"></textarea>
 
 
-    <!--  desplegable formulario con despegable
+            <!--  desplegable formulario con despegable
     <input list="navegador" name="miNavegador">-->
-<!--  con la linea de arriba desplegable  no obligatorio con opciones
+            <!--  con la linea de arriba desplegable  no obligatorio con opciones
 <datalist id="navegador">
     <option value="Chrome" >
     <option value="firefox" >
@@ -44,17 +49,20 @@
 
 </datalist>  -->
 
-<!-- barra de  progreso de carga  
+            <!-- barra de  progreso de carga  
 <progress value="80" max="100">  80%
 El 80% no es obligatorio
 </progress> -->
 
-<!-- otra barra de  progreso de carga
+            <!-- otra barra de  progreso de carga
 <meter value="3" min="0" max="10" ></meter> -->
 
-    </form>
-</div>
-<footer> <p>pie de pagina</p> </footer>
+        </form>
+    </div>
+    <footer>
+        <p>pie de pagina</p>
+    </footer>
 
 </body>
+
 </html>

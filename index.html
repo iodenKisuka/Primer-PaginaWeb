@@ -8,39 +8,56 @@
     <meta name="descripcion" content="pagina de venta de ropa">
     <meta name="keyword" content="venta,ropa, deportiva,mujer, hombre">
     <title>ropa sport</title>
-    <link rel="stylesheet" href="..\estilogeneral.css">
-    <link rel="stylesheet" href="Estilo_PaginaPrincipa.css">
+    <link rel="shortcut icon" href="icon\storeFaicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/estilogeneral.css">
+    <link rel="stylesheet" href="\styles\Estilo_PaginaPrincipal.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+
+
 </head>
 
 <body>
     <div id="pagina_principal">
         <header>
-
-            <img id="logo" src="F:\usuarios\alumno\Documentos\G Diseño pagina web\loc.png" height="100px" alt="">
+            <div class="row">
+            <div class="col-3">
+            <img id="logo" src="images/logo2.png" height="100px" alt="">
+            </div>
+            <div class="col-md">
             <h1> Tienda de venta de ropa </h1>
+            </div >
+            </div>
         </header>
         <!-- hipervinculo -->
         <nav>
-            <a href="file:///F:/usuarios/alumno/Documentos/GitHub/pagina-web/inicio_seccion/iniciar_seccion.html"> Iniciar Seccion</a>
+            <a href="plantillas/iniciar_seccion.html">
+                Iniciar Seccion</a>
         </nav>
-
+        <div id="buscador" class="col-4">
+            <input type="search" name="" id="buscador">
+            <!-- otra forma de hacer un boton  <input type="button" value="buscar"> -->
+            <button value="buscar">Buscar</button>
+        
+        </div>
 
 
         <p id="intro">
-            <big> ropa </big>
-            <i>deportiva</i>
+        <h2> ropa </h2>
+        <i>deportiva</i>
         </p>
 
-        <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque commodi quos et incidunt eius fugit reiciendis maiores
+        <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque commodi quos et incidunt eius fugit
+            reiciendis maiores
             dol
-            <br/> oremque exercitationem optio libero labore ea numquam voluptatum obcaecati sed alias, praesentium perspiciatis.
+            <br /> oremque exercitationem optio libero labore ea numquam voluptatum obcaecati sed alias, praesentium
+            perspiciatis.
         </P>
 
         <hr />
 
         <ul>
             <b>
-                <big>ropa</big>
+                <h2>ropa</h2>
             </b>
 
 
@@ -49,57 +66,22 @@
             <li>infantil</li>
         </ul>
 
-        <input type="search" name="" id="buscador">
-        <input type="button" value="buscar">
+
 
         <br>
         <article id="imagenes">
             <h2 id="titulo_tabla_imagenes"> Tabla de imagenes Gotica</h2>
             <!-- Segun html5 no soporta bordes pero sin el no se ve los bordes del cuadro -->
-            <table border="1" id="tabla_imagenes">
+            <div id="tabla_imagenes" class="row">
+                <div>
+                    <img src="F:\usuarios\alumno\Escritorio\carpeta de celular antes del recital\estilo gotico\1.jpg"
+                        height="200px" width="200px" alt="imagen">
+                    <time datetime="12-10-2018">publicado el 12-10-2018</time>
+                </div>
 
-                <tr>
-                    <td>
-                        <img src="F:\usuarios\alumno\Escritorio\carpeta de celular antes del recital\estilo gotico\1.jpg" height="200px" width="200px" alt="">
-                        <br>
-                        <time datetime="12-10-2018">publicado el 12-10-2018</time>
-                    </td>
-                    <td>
-                        <img src="F:\usuarios\alumno\Escritorio\carpeta de celular antes del recital\estilo gotico\2.jpg" height="200px" width="200px" alt=""> </td>
-                    <td>
-                        <img src="F:\usuarios\alumno\Escritorio\carpeta de celular antes del recital\estilo gotico\27.jpg" height="200px" width="200px" alt="">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="F:\usuarios\alumno\Escritorio\carpeta de celular antes del recital\estilo gotico\3.jpg" height="200px" width="200px" alt=""> </td>
-                    <td>
-                        <img src="F:\usuarios\alumno\Escritorio\carpeta de celular antes del recital\estilo gotico\5.jpg" height="200px" width="200px" alt=""> </td>
-                    <td>
-                        <img src="F:\usuarios\alumno\Escritorio\carpeta de celular antes del recital\estilo gotico\6.jpg" height="200px" width="200px" alt=""> </td>
+            </div>
 
-
-                </tr>
-
-            </table>
-
-        </article>
-        <section class="imagen">
-            <img src="F:\usuarios\alumno\Escritorio\carpeta de celular antes del recital\estilo gotico\14.jpg" height="200px" width="200px" alt="">
-             <br><time datetime="12-10-2018">publicado el 12-10-2018</time> 
-         </section> 
-         <section class="imagen">
-                 <img src="F:\usuarios\alumno\Escritorio\carpeta de celular antes del recital\estilo gotico\2.jpg" height="200px" width="200px" alt="">
-                  <br>  <time datetime="12-10-2018" >publicado el 12-10-2018</time> 
-         </section> 
-         <section class="imagen">
-                 <img src="F:\usuarios\alumno\Escritorio\carpeta de celular antes del recital\estilo gotico\22.jpg" height="200px" width="200px" alt="">
-                 <br>  <time datetime="12-10-2018" >publicado el 12-10-2018</time> 
-         </section> 
-         <section class="imagen">
-                 <img src="F:\usuarios\alumno\Escritorio\carpeta de celular antes del recital\estilo gotico\13.jpg" height="200px" width="200px" alt="">
-                 <br>  <time datetime="12-10-2018" >publicado el 12-10-2018</time> 
-          </section> 
+        
 
         <footer>
             <p>pie de pagina</p>

@@ -7,9 +7,11 @@ header h1 {
     padding: 10px;
 }
 
-header {
+header{
     border: 5px double lightslategray;
     float: initial;
+    padding: 10px;
+    margin: 10px;
 }
 
 #logo {
@@ -23,7 +25,8 @@ nav {
 body {
     /**background-color: gray;  background-color: lavender;**/
     clear: both;
-    background-image: url("logo2.png");
+    background-image: url("/images/logo2.png");
+     background-image: url("../images/logo2.png");
 }
 
 #pagina_principal {
@@ -31,9 +34,13 @@ body {
     background: #aaa3a1;
     background: -webkit-linear-gradient(to right, #0b8793, #aa0ba2);
     background: linear-gradient(to right, #6d0968, #0b8793);
-    padding: 10px;
-    margin: 20px;
+    padding: 10px 10px 0px 10px;
+    margin: 20px 20px 15px 20px;
 }
 footer{
     text-align: center;
+    background-color:#646464;
+    position: static;
+    padding: 5px;
+    margin: 100px -10px 15px -10px;
 }
